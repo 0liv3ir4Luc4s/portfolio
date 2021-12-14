@@ -1,0 +1,7 @@
+@use '../abstracts/' as *;
+.about-me-card {
+    border: .09375rem $c-border solid;
+}
+.about-me-heading {
+    margin-bottom: 2rem;
+}
