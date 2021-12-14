@@ -1,0 +1,18 @@
+@use '../abstracts/' as *;
+.project-desc { 
+    color: $c-white;
+    bottom: 3.367099567%;
+    left: 3.463203463%;
+    h3 {
+        margin-bottom: .5rem;
+    }
+}
+.project-card {
+    width: fit-content;
+    img {
+        position: relative;
+        z-index: -1;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 9.74%, #000000 100%);
+}
