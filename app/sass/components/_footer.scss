@@ -1,0 +1,22 @@
+@use '../abstracts' as *;
+.footer {
+    border-top: .09375rem $c-border solid;
+    padding: 4rem 8.875rem 2rem 8.875rem;
+}
+.footer-heading {
+    color: $c-accent;
+}
+div.caption {
+    margin-top: 4rem;
+    border-top: .09375rem $c-border solid;
+}
+@media (max-width: 575px) {
+    .footer {
+        h4, ul {
+            margin-bottom: 2rem;
+        }
+        ul:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
