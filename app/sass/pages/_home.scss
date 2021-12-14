@@ -1,0 +1,7 @@
+@use "../abstracts/" as *;
+.presentation {
+    span {
+        color: $c-primary;
+    }
+    margin: 12.3125rem 0 19.125rem 0;
+}
