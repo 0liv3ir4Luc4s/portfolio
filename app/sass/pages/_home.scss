@@ -5,3 +5,11 @@
     }
     margin: 12.3125rem 0 19.125rem 0;
 }
+#projects-list-heading {
+    margin-left: 8.875rem;
+}
+@media (max-width: 576px) {
+    #projects-list-heading {
+        margin-left: 0;
+    }
+}
