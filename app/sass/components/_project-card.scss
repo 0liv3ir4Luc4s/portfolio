@@ -9,10 +9,11 @@
 }
 .project-card {
     width: fit-content;
+    border-radius: .5rem;
     img {
-        border-radius: .5rem;
         position: relative;
         z-index: -1;
     }
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 9.74%, #000000 100%);
+    background-clip: padding-box;
 }
