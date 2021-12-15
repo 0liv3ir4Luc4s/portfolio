@@ -10,6 +10,16 @@
 }
 @media (max-width: 576px) {
     #projects-list-heading {
-        margin-left: .25rem;
+        margin-left: 1rem;
+    }
+    .presentation {
+        margin-right: .15%;
+        margin-left: .15%;
+    }
+}
+@media (min-width: 660px) {
+    #proj-1 {
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
